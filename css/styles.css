@@ -1,0 +1,52 @@
+/* 
+Colour Palette
+Purple - #37003c
+Pink - #ff2882
+Green - #00ff87
+*/
+nav {
+  height: 75px;
+}
+
+nav .nav-wrapper {
+  background: #37003c;
+}
+
+nav img {
+  width: 75%;
+}
+
+nav li, nav .sidenav-trigger {
+  margin-top: 5px;
+}
+
+nav .list-nav-items {
+  padding-left: 150px;
+}
+
+nav .nav-icon {
+  position: relative;
+  top: -50px;
+  text-align: center;
+}
+
+nav ul a:hover {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+nav .list-nav-button a {
+  background-color: #00ff87;
+}
+
+nav .list-nav-button a:last-child {
+  position: relative;
+  right: 31px;
+  color: #00ff87;
+  border: 1px solid #00ff87;
+  border-left-color: transparent;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: #37003c;
+  padding: 0 10px;
+}
+/*# sourceMappingURL=styles.css.map */
