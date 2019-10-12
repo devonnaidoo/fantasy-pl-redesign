@@ -13,7 +13,112 @@
 </head>
 
 <body>
+    <!-- Nav -->
 
+    <!-- Dropdown Structure -->
+    <ul id="pl-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+    </ul>
+    <ul id="pl-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+    </ul>
+    <!--  -->
+    <ul id="fantasy-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+    </ul>
+    <ul id="fantasy-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+    </ul>
+    <!--  -->
+    <ul id="community-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+    </ul>
+    <ul id="community-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+    </ul>
+    <!--  -->
+    <ul id="more-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+    </ul>
+    <ul id="more-dropdown" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+    </ul>
+    <!-- Sign In Button -->
+    <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#!"><i class="material-icons">view_module</i>four</a></li>
+        <li><a href="#!"><i class="material-icons">cloud</i>five</a></li>
+    </ul>
+    <nav>
+        <div class="nav-wrapper">
+            <div class="container-fluid">
+                <a href="#!" class="brand-logo"><img src="img/pl-logo-white-bg.png" alt="pl-logo"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul class="left hide-on-med-and-down list-nav-items">
+                    <!-- Premier League Dropdown Trigger -->
+                    <li><a class="dropdown-trigger" href="#!" data-target="pl-dropdown">Premier League<i
+                                class="material-icons nav-icon">arrow_drop_down</i></a>
+                    </li>
+                    <!-- Fantasy League Dropdown Trigger -->
+                    <li><a class="dropdown-trigger" href="#!" data-target="fantasy-dropdown">Fantasy<i
+                                class="material-icons nav-icon">arrow_drop_down</i></a>
+                    </li>
+                    <li><a href="#">Video</a></li>
+                    <!-- Community League Dropdown Trigger -->
+                    <li><a class="dropdown-trigger" href="#!" data-target="community-dropdown">Community<i
+                                class="material-icons nav-icon">arrow_drop_down</i></a>
+                    </li>
+                    <!-- More Dropdown Trigger -->
+                    <li><a class="dropdown-trigger" data-target="more-dropdown">More<i
+                                class="material-icons nav-icon">arrow_drop_down</i></a>
+                    </li>
+                </ul>
+
+                <ul class="right hide-on-med-and-down list-nav-button">
+                    <li>
+                        <!-- Dropdown Trigger -->
+                        <!-- <a class='dropdown-trigger btn' href='#' data-target='dropdown1'><i
+                                class="material-icons right">arrow_drop_down</i>Sign In</a> -->
+                        <a class="dropdown-trigger btn" data-target='dropdown1'>Button</a><a
+                            class="dropdown-trigger btn"><i class="material-icons ">arrow_drop_down</i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a class="dropdown-trigger" href="#!" data-target="pl-dropdown">Premier League<i
+                    class="material-icons right">arrow_drop_down</i></a></li>
+        <!-- Fantasy League Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="fantasy-dropdown">Fantasy<i
+                    class="material-icons right">arrow_drop_down</i></a>
+        </li>
+        <li><a href="#">Video</a></li>
+        <!-- Community League Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="community-dropdown">Community<i
+                    class="material-icons right">arrow_drop_down</i></a>
+            <!-- More Dropdown Trigger -->
+        <li><a class="dropdown-trigger" href="#!" data-target="more-dropdown">More<i
+                    class="material-icons right">arrow_drop_down</i></a>
+        </li>
+    </ul>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+
+        // Or with jQuery
+        $(document).ready(function () {
+
+            $('.sidenav').sidenav();
+            // To activate nav dropdown 
+            $(".dropdown-trigger").dropdown();
+        });
+
+    </script>
 </body>
 
 </html>

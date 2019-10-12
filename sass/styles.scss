@@ -1,1 +1,55 @@
+/* 
+Colour Palette
+Purple - #37003c
+Pink - #ff2882
+Green - #00ff87
+*/
+$purple: #37003c;
+$pink: #ff2882;
+$green: #00ff87;
+$margin-t-b: 50px;
 
+
+// Nav
+nav {
+    height: 75px;
+    .nav-wrapper {
+        background: $purple;
+    }
+    img {
+        width: 75%;
+    }
+    li, .sidenav-trigger {
+        margin-top: 5px;
+    }
+    .list-nav-items {
+        padding-left: 150px;
+    }
+    .nav-icon {
+        position: relative; 
+        top: -50px; 
+        text-align: center;
+    }
+    // Remove hover effect
+    ul a:hover {
+        background-color: rgba(0, 0, 0, 0) !important;
+    }
+    .list-nav-button {
+        // padding-right: 50px;
+        a {
+            background-color: $green;
+        }
+        a:last-child {
+            position: relative;
+            right: 31px;
+            color: $green;
+            border: 1px solid $green;
+            border-left-color: transparent;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            background-color: $purple;
+            padding: 0 10px;
+        }
+
+    }
+}
