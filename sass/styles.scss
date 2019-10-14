@@ -8,6 +8,18 @@ $purple: #37003c;
 $pink: #ff2882;
 $green: #00ff87;
 $margin-t-b: 50px;
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+h1 {
+    font-size: 50px;
+    color: $purple;
+}
 
 // Nav
 nav {
@@ -63,17 +75,21 @@ nav {
     padding: 0;
     background-image: url("../img/landing-fpl.jpg");
     background-size:cover;
-    background-position:center;
-    background-attachment: fixed;
+    // background-position:;
+    // background-attachment: ;
     width: 100%;
     height: 100vh;
     position: relative;
     top: -75px;
     z-index: -1;
 
-    .container {
+    .container-custom {
         position: relative;
         top: 75px;
+        margin: 0 50px;
+    }
+    .container-custom .col {
+        width: 50%;
     }
   }
   
