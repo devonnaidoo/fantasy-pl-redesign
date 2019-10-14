@@ -97,6 +97,10 @@ nav {
         margin: 10px;
         padding: 10px 50px;
         z-index: 100;
+
+        button {
+            background-color: $green;
+        }
     }
   }
   
