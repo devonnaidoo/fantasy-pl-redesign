@@ -52,6 +52,10 @@ nav {
         }
 
     }
+    //Fix dropdown bottom margin
+    .left .dropdown-trigger {
+        height: 70px;
+    }
 }
 
 // Landing
