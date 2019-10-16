@@ -14,9 +14,12 @@ h1 {
   color: #37003c; }
 
 nav {
+  z-index: 1;
   height: 75px; }
   nav .nav-wrapper {
     background: #37003c; }
+  nav .brand-logo {
+    z-index: 1; }
   nav img {
     width: 75%; }
   nav li, nav .sidenav-trigger {
@@ -27,17 +30,19 @@ nav {
     position: relative;
     top: -50px;
     text-align: center; }
-  nav .list-nav-button a {
-    background-color: #00ff87; }
-  nav .list-nav-button a:last-child {
-    position: relative;
-    font-weight: 700;
-    right: 31px;
-    color: #37003c;
-    background-color: #00ff87;
-    padding: 0 10px; }
-  nav .list-nav-button a:last-child:hover {
-    background-color: #1ae686; }
+  nav .list-nav-button {
+    padding-right: 50px; }
+    nav .list-nav-button a {
+      background-color: #00ff87; }
+    nav .list-nav-button a:last-child {
+      position: relative;
+      font-weight: 700;
+      right: 31px;
+      color: #37003c;
+      background-color: #00ff87;
+      padding: 0 10px; }
+    nav .list-nav-button a:last-child:hover {
+      background-color: #1ae686; }
   nav .left .dropdown-trigger {
     height: 70px; }
 
@@ -50,9 +55,7 @@ nav {
   overflow: hidden;
   width: 100%;
   height: 100vh;
-  position: relative;
-  top: -75px;
-  z-index: -1; }
+  position: relative; }
   .landing .container-custom {
     position: relative;
     top: 75px;
@@ -63,9 +66,12 @@ nav {
     height: 500px; }
   .landing .container-form {
     margin: 10px;
-    padding: 10px 50px;
-    z-index: 100; }
+    padding: 10px 50px; }
     .landing .container-form button {
       background-color: #00ff87; }
+
+form .row {
+  margin: 0;
+  padding: 0; }
 
 /*# sourceMappingURL=styles.css.map */
