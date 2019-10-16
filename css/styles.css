@@ -27,8 +27,6 @@ nav {
     position: relative;
     top: -50px;
     text-align: center; }
-  nav ul a:hover {
-    background-color: rgba(0, 0, 0, 0) !important; }
   nav .list-nav-button a {
     background-color: #00ff87; }
   nav .list-nav-button a:last-child {
@@ -38,6 +36,8 @@ nav {
     color: #37003c;
     background-color: #00ff87;
     padding: 0 10px; }
+  nav .list-nav-button a:last-child:hover {
+    background-color: #1ae686; }
   nav .left .dropdown-trigger {
     height: 70px; }
 
