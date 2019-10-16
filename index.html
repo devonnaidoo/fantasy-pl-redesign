@@ -6,6 +6,8 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="css/intlTelInput.css">
+
     <link rel="stylesheet" href="css/styles.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -188,6 +190,8 @@
                                 <div class="col s12">
                                     <div class="input-field">
                                         <select>
+                                            <option value="" disabled selected>Select Country/Region of Residence
+                                            </option>
                                             <option value="AFG">Afghanistan</option>
                                             <option value="ALA">Åland Islands</option>
                                             <option value="ALB">Albania</option>
@@ -373,8 +377,7 @@
                                             <option value="RUS">Russian Federation</option>
                                             <option value="RWA">Rwanda</option>
                                             <option value="BLM">Saint Barthélemy</option>
-                                            <option value="SHN">Saint Helena, Ascension and Tristan da Cunha
-                                            </option>
+                                            <option value="SHN">Saint Helena, Ascension and Tristan da Cunha</option>
                                             <option value="KNA">Saint Kitts and Nevis</option>
                                             <option value="LCA">Saint Lucia</option>
                                             <option value="MAF">Saint Martin (French part)</option>
@@ -440,8 +443,13 @@
                                             <option value="ZMB">Zambia</option>
                                             <option value="ZWE">Zimbabwe</option>
                                         </select>
-                                        <label>Materialize Select</label>
                                     </div>
+                                </div>
+                            </div>
+                            <!-- Input Mobile -->
+                            <div class="row">
+                                <div class="col s12">
+                                    <input type="tel" id="demo" placeholder="" id="telephone">
                                 </div>
                             </div>
                             <div class="row">
@@ -459,6 +467,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- International Telephone Input With Flags and Dial Codes Vanilla JS plugin -->
+    <script src="js/intlTelInput-jquery.min.js"></script>
+
     <script>
 
         $(document).ready(function () {
@@ -473,7 +484,64 @@
             //Form select dropdown initializer
             $('select').formSelect();
 
+            // jQuery 
+            $("#telephone").intlTelInput({
+                // whether or not to allow the dropdown
+                allowDropdown: true,
+
+                // if there is just a dial code in the input: remove it on blur, and re-add it on focus
+                autoHideDialCode: true,
+
+                // add a placeholder in the input with an example number for the selected country
+                autoPlaceholder: "polite",
+
+                // modify the auto placeholder
+                customPlaceholder: null,
+
+                // append menu to specified element
+                dropdownContainer: null,
+
+                // don't display these countries
+                excludeCountries: [],
+
+                // format the input value during initialisation and on setNumber
+                formatOnDisplay: true,
+
+                // geoIp lookup function
+                geoIpLookup: null,
+
+                // inject a hidden input with this name, and on submit, populate it with the result of getNumber
+                hiddenInput: "",
+
+                // initial country
+                initialCountry: "",
+
+                // localized country names e.g. { 'de': 'Deutschland' }
+                localizedCountries: null,
+
+                // don't insert international dial codes
+                nationalMode: true,
+
+                // display only these countries
+                onlyCountries: [],
+
+                // number type to use for placeholders
+                placeholderNumberType: "MOBILE",
+
+                // the countries at the top of the list. defaults to united states and united kingdom
+                preferredCountries: ["us", "gb"],
+
+                // display the country dial code next to the selected flag so it's not part of the typed number
+                separateDialCode: false,
+
+                // specify the path to the libphonenumber script to enable validation/formatting
+                utilsScript: ""
+                // separateDialCode: true
+            });
+
         });
+
+
 
     </script>
 </body>
