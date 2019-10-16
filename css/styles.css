@@ -33,13 +33,10 @@ nav {
     background-color: #00ff87; }
   nav .list-nav-button a:last-child {
     position: relative;
+    font-weight: 700;
     right: 31px;
-    color: #00ff87;
-    border: 1px solid #00ff87;
-    border-left-color: transparent;
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    background-color: #37003c;
+    color: #37003c;
+    background-color: #00ff87;
     padding: 0 10px; }
   nav .left .dropdown-trigger {
     height: 70px; }

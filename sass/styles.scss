@@ -52,13 +52,10 @@ nav {
         }
         a:last-child {
             position: relative;
+            font-weight: 700;
             right: 31px;
-            color: $green;
-            border: 1px solid $green;
-            border-left-color: transparent;
-            border-top-left-radius: 0;
-            border-bottom-left-radius: 0;
-            background-color: $purple;
+            color:$purple;
+            background-color: $green;
             padding: 0 10px;
         }
 
