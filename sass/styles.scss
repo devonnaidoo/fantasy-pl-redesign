@@ -95,7 +95,7 @@ nav {
     .container-form {
         margin: 10px;
         padding: 10px 50px;
-        button {
+        .btn:last-child {
             background-color: $green;
         }
     }

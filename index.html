@@ -176,26 +176,12 @@
                             </div>
                             <!-- Date of Birth -->
                             <div class="row">
-                                <div class="col s2">
-                                    <span>Gender</span>
-                                </div>
                                 <div class="col s3">
-                                    <label>
-                                        <input type="checkbox" />
-                                        <span>Male</span>
-                                    </label>
+                                    <p>Date of Birth</p>
                                 </div>
-                                <div class="col s3">
-                                    <label>
-                                        <input type="checkbox" />
-                                        <span>Female</span>
-                                    </label>
-                                </div>
-                                <div class="col s4">
-                                    <label>
-                                        <input type="checkbox" />
-                                        <span>Unspecified</span>
-                                    </label>
+                                <div class="col s9">
+                                    <input type="date" class="datepicker" />
+
                                 </div>
                             </div>
                             <div class="row">
@@ -215,12 +201,15 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
 
-        // Or with jQuery
         $(document).ready(function () {
 
             $('.sidenav').sidenav();
             // To activate nav dropdown 
             $(".dropdown-trigger").dropdown();
+
+            //Date picker
+            $('.datepicker').datepicker();
+
         });
 
     </script>

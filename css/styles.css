@@ -67,7 +67,7 @@ nav {
   .landing .container-form {
     margin: 10px;
     padding: 10px 50px; }
-    .landing .container-form button {
+    .landing .container-form .btn:last-child {
       background-color: #00ff87; }
 
 form .row, form .col, form input {
