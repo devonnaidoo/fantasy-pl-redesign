@@ -118,3 +118,14 @@ form {
     }
 }
 
+
+// Media queries
+// Mobile devices
+@media screen and (width: 320px) {
+    // Landing
+    .landing { 
+        h1 {
+            color: red;
+        }
+    }
+}
