@@ -122,12 +122,14 @@ form {
 // Tabs
 .tabs-control {
     text-align: center;
+    // Tabs without the class active will be pink
     .tab.col.s3 {  
         background-color: $pink !important;
         a { 
             color: #ffffff !important;
         }
     }
+    // Only the tab with the class active will be purple
     .active {
         background-color: $purple !important;
     }
