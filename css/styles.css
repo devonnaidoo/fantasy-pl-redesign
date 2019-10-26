@@ -73,5 +73,10 @@ nav {
 form .row, form .col, form input {
   margin: 0;
   padding: 0; }
+form .row:nth-child(4) {
+  position: relative;
+  right: 18px;
+  margin: 10px 0;
+  padding: 0; }
 
 /*# sourceMappingURL=styles.css.map */
