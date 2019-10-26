@@ -58,7 +58,7 @@ nav {
   position: relative; }
   .landing .container-custom {
     position: relative;
-    top: 75px;
+    top: 20px;
     margin: 0 50px; }
   .landing .container-custom .col:first-child {
     text-align: center; }
