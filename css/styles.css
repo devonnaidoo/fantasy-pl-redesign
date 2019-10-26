@@ -70,7 +70,7 @@ nav {
       background-color: #00ff87; }
 
 form .row, form .col, form input {
-  margin: 0;
+  margin: -5px;
   padding: 0; }
 form .row:nth-child(4), form .row:nth-child(5), form .row:nth-child(6) {
   position: relative;

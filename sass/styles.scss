@@ -103,7 +103,7 @@ nav {
 // Form
 form {
     .row, .col, input {
-        margin: 0;
+        margin: -5px;
         padding: 0;
     }
     .row:nth-child(4), .row:nth-child(5), .row:nth-child(6) {
