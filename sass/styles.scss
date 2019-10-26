@@ -124,11 +124,11 @@ form {
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {
     // Landing
-    .landing { 
+    .landing {
+        background-image: none;
         h1 {
             text-align: center;
         }
-
         // Form
         .container-custom {
             margin: 0;
@@ -161,6 +161,7 @@ form {
 @media screen and (max-width: 992px) {
     // Landing
     .landing { 
+        background-image: none;
         h1 {
             text-align: center;
         }
