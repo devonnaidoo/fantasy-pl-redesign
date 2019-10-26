@@ -120,10 +120,11 @@ form {
 }
 
 // Tabs
-.tab-body {
-    height: 500px;
+.tabs-control {
+    .tab-body {
+        height: 500px;
+    }
 }
-
 
 // Media queries
 // Mobile devices 600px and down
@@ -165,6 +166,12 @@ form {
 
 // Table devices 992px and down
 @media screen and (max-width: 992px) {
+    .tabs-control {
+        //To fix tabs overlaying button
+        position: relative;
+        top: 50px;
+    }
+    
     // Landing
     .landing { 
         background-image: none;

@@ -81,7 +81,7 @@ form .row:nth-child(7) {
   position: relative;
   right: 8px; }
 
-.tab-body {
+.tabs-control .tab-body {
   height: 500px; }
 
 @media screen and (max-width: 600px) {
@@ -105,6 +105,10 @@ form .row:nth-child(7) {
     .landing form .row:nth-child(7) {
       right: 0; } }
 @media screen and (max-width: 992px) {
+  .tabs-control {
+    position: relative;
+    top: 50px; }
+
   .landing {
     background-image: none; }
     .landing h1 {
