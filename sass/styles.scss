@@ -121,6 +121,20 @@ form {
 
 // Tabs
 .tabs-control {
+    text-align: center;
+    .tab.col.s3 {  
+        background-color: $pink !important;
+        a { 
+            color: #ffffff !important;
+        }
+    }
+    .active {
+        background-color: $purple !important;
+    }
+    // Changing colour of tab underline
+    .indicator {
+        background-color: $purple !important;
+    } 
     .tab-body {
         height: 500px;
     }

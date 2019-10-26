@@ -81,8 +81,18 @@ form .row:nth-child(7) {
   position: relative;
   right: 8px; }
 
-.tabs-control .tab-body {
-  height: 500px; }
+.tabs-control {
+  text-align: center; }
+  .tabs-control .tab.col.s3 {
+    background-color: #ff2882 !important; }
+    .tabs-control .tab.col.s3 a {
+      color: #ffffff !important; }
+  .tabs-control .active {
+    background-color: #37003c !important; }
+  .tabs-control .indicator {
+    background-color: #37003c !important; }
+  .tabs-control .tab-body {
+    height: 500px; }
 
 @media screen and (max-width: 600px) {
   .landing {
