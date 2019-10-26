@@ -80,7 +80,7 @@ form .row:nth-child(7) {
   position: relative;
   right: 8px; }
 
-@media screen and (width: 320px) {
+@media screen and (max-width: 600px) {
   .landing h1 {
     color: red; } }
 
