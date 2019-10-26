@@ -73,10 +73,12 @@ nav {
 form .row, form .col, form input {
   margin: 0;
   padding: 0; }
-form .row:nth-child(4) {
+form .row:nth-child(4), form .row:nth-child(5), form .row:nth-child(6) {
   position: relative;
   right: 18px;
-  margin: 10px 0;
-  padding: 0; }
+  margin: 10px 0; }
+form .row:nth-child(7) {
+  position: relative;
+  right: 8px; }
 
 /*# sourceMappingURL=styles.css.map */
