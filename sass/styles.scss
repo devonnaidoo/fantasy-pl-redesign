@@ -94,11 +94,12 @@ nav {
     .container-form {
         margin: 10px;
         padding: 10px 50px;
+        text-align: center;
         .btn:last-child {
             background-color: $green;
         }
     }
-  }
+}
   
 // Form
 form {
@@ -123,6 +124,7 @@ form {
 
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {
+
     // Landing
     .landing {
         background-image: none;

@@ -65,7 +65,8 @@ nav {
     height: 500px; }
   .landing .container-form {
     margin: 10px;
-    padding: 10px 50px; }
+    padding: 10px 50px;
+    text-align: center; }
     .landing .container-form .btn:last-child {
       background-color: #00ff87; }
 
