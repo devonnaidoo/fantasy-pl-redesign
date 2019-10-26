@@ -90,6 +90,14 @@ form .row:nth-child(7) {
     margin: 0;
     padding: 0;
     width: 100%;
-    border: 1px solid red; } }
+    border: 1px solid red; }
+  .landing form .row, .landing form .col, .landing form input {
+    margin: 0px;
+    padding: 0; }
+  .landing form .row:nth-child(4), .landing form .row:nth-child(5), .landing form .row:nth-child(6) {
+    right: 0px;
+    margin: 0px 0; }
+  .landing form .row:nth-child(7) {
+    right: 0px; } }
 
 /*# sourceMappingURL=styles.css.map */
