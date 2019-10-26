@@ -119,9 +119,13 @@ form {
     }
 }
 
+// Tabs
+.tab-body {
+    height: 500px;
+}
+
 
 // Media queries
-
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {
 

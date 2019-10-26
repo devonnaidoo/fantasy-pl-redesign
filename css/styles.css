@@ -81,6 +81,9 @@ form .row:nth-child(7) {
   position: relative;
   right: 8px; }
 
+.tab-body {
+  height: 500px; }
+
 @media screen and (max-width: 600px) {
   .landing {
     background-image: none; }
