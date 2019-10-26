@@ -120,12 +120,13 @@ form {
 
 
 // Media queries
+
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {
     // Landing
     .landing { 
         h1 {
-            color: red;
+            text-align: center;
         }
 
         // Form
@@ -137,22 +138,31 @@ form {
             margin: 0;
             padding: 0;
             width: 100%;
-            border: 1px solid red;
         }
         // Adjusting form inputs
         form {
             .row, .col, input {
-                margin:  0px;
+                margin:  0;
                 padding: 0;
             }
             .row:nth-child(4), .row:nth-child(5), .row:nth-child(6) {
                 // Align text to the absolute left of the form
-                right: 0px;
-                margin: 0px 0;
+                right: 0;
+                margin: 0 0;
             }
             .row:nth-child(7) {
-                right: 0px;
+                right: 0;
             }
+        }
+    }
+}
+
+// Table devices 992px and down
+@media screen and (max-width: 992px) {
+    // Landing
+    .landing { 
+        h1 {
+            text-align: center;
         }
     }
 }
