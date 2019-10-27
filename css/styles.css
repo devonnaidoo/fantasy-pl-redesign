@@ -92,7 +92,7 @@ form .row:nth-child(7) {
   .tabs-control .indicator {
     background-color: #37003c !important; }
   .tabs-control .tab-body {
-    height: 720px !important; }
+    height: 100vh !important; }
 
 .section-control {
   margin: 50px 0; }
@@ -102,11 +102,15 @@ form .row:nth-child(7) {
   color: #ffffff; }
 
 .features {
-  height: 720px;
-  overflow: visible;
+  height: 8000px;
   background-image: url("../img/section-features--background.jpg");
   background-repeat: no-repeat;
   background-size: contain; }
+
+.img-container {
+  width: 200px;
+  height: 200px;
+  background-image: url("https://materializecss.com/images/office.jpg"); }
 
 @media screen and (max-width: 600px) {
   .landing {
