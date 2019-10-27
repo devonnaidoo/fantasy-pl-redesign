@@ -142,10 +142,16 @@ form {
     }
 }
 
+// Initialising sections
+.section-control {
+    margin: 50px 0;
+}
+
+
+
 // Media queries
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {
-
     // Landing
     .landing {
         background-image: none;
