@@ -146,7 +146,7 @@ form {
         background-color: $purple !important;
     } 
     .tab-body {
-        height: 800px !important;
+        height: fit-content !important;
     }
 }
 
@@ -167,8 +167,8 @@ form {
 
 // Card
 .card-custom {
-    width: 400px;
-    margin-top: 25px;
+    margin: 0 auto;
+    width: 100%;
 }
 .card-custom-text{
     padding: 40px 40px 40px 40px;
@@ -182,8 +182,17 @@ form {
 .img-container-1 {
     border: 1px solid $pink;
     width: 100%;
-    height: 200px;
+    height: 250px;
     background-image: url("../img/feature-card-fpl-club-shirts.png");
+    background-repeat: no-repeat;
+    background-size: 90%;
+    background-position: center;
+}
+.img-container-2 {
+    border: 1px solid $pink;
+    width: 100%;
+    height: 250px;
+    background-image: url("../img/feature-card-fpl-stats.png");
     background-repeat: no-repeat;
     background-size: 90%;
     background-position: center;
