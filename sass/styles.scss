@@ -21,6 +21,14 @@ h1 {
     color: $purple;
 }
 
+h2 {
+    font-size: 28px !important;
+}
+
+h3 {
+    font-size: 26px !important;
+}
+
 // Nav
 nav {
     z-index: 1;
@@ -144,12 +152,10 @@ form {
 
 // Initialising sections
 .section-control {
+    color: #ffffff;
     margin: 50px 0;
 }
-.section-heading {
-    font-size: 28px !important;
-    color: #ffffff;
-}
+
 
 // Features section
 .features {
