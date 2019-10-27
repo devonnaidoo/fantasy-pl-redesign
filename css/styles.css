@@ -94,9 +94,10 @@ form .row:nth-child(7) {
   .tabs-control .tab-body {
     height: 720px !important; }
 
+.section-control {
+  margin: 50px 0; }
+
 .features {
-  position: relative;
-  bottom: 50px;
   height: 720px;
   overflow: visible;
   background-image: url("../img/section-features--background.jpg");
