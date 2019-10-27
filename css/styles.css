@@ -92,14 +92,20 @@ form .row:nth-child(7) {
   .tabs-control .indicator {
     background-color: #37003c !important; }
   .tabs-control .tab-body {
-    height: fit-content; }
+    height: 100vh !important; }
 
 .section-control {
   margin: 50px 0; }
 
+.test-swipe-1 {
+  height: 100vh !important; }
+
 .features {
-  height: 720px;
-  background-image: url("../img/section-features--background.jpg"); }
+  height: 100vh;
+  overflow: visible;
+  background-image: url("../img/section-features--background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat; }
 
 @media screen and (max-width: 600px) {
   .landing {

@@ -138,7 +138,7 @@ form {
         background-color: $purple !important;
     } 
     .tab-body {
-        height: fit-content;
+        height: 100vh !important;
     }
 }
 
@@ -148,9 +148,15 @@ form {
 }
 
 // Features section
+.test-swipe-1 {
+    height: 100vh !important;
+}
 .features {
-    height: 720px;
+    height: 100vh;
+    overflow: visible;
     background-image: url("../img/section-features--background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 // Media queries
