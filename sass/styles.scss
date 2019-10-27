@@ -15,7 +15,7 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
 }
-
+// Font sizes for entire site
 h1 {
     font-size: 44px;
     color: $purple;
@@ -159,7 +159,7 @@ form {
 
 // Features section
 .features {
-    height: 8000px;
+    height: 800px;
     background-image: url("../img/section-features--background.jpg");
     background-repeat: no-repeat;
     background-size: contain;
@@ -167,9 +167,14 @@ form {
 
 // Card
 .card-custom {
-    width: 350px;
+    width: 400px;
+}
+.card-custom-text{
+    padding: 40px 40px 40px 40px;
+    background-color: $pink;
 }
 .img-container {
+    border: 1px solid $pink;
     width: 100%;
     height: 250px;
     background-image: url("https://materializecss.com/images/office.jpg");
