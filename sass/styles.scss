@@ -138,25 +138,25 @@ form {
         background-color: $purple !important;
     } 
     .tab-body {
-        height: 100vh !important;
+        height: 720px !important;
     }
 }
 
 // Initialising sections
 .section-control {
-    margin: 50px 0;
+    // margin: 50px 0;
 }
 
 // Features section
-.test-swipe-1 {
-    height: 100vh !important;
-}
+
 .features {
-    height: 100vh;
+    position: relative;
+    bottom: 50px;
+    height: 720px;
     overflow: visible;
     background-image: url("../img/section-features--background.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 // Media queries
