@@ -97,6 +97,10 @@ form .row:nth-child(7) {
 .section-control {
   margin: 50px 0; }
 
+.section-heading {
+  font-size: 28px !important;
+  color: #ffffff; }
+
 .features {
   height: 720px;
   overflow: visible;
