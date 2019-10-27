@@ -111,7 +111,8 @@ form .row:nth-child(7) {
   background-size: contain; }
 
 .card-custom {
-  width: 400px; }
+  width: 400px;
+  margin-top: 25px; }
 
 .card-custom-text {
   padding: 40px 40px 40px 40px;
