@@ -138,7 +138,7 @@ form {
         background-color: $purple !important;
     } 
     .tab-body {
-        height: 500px;
+        height: fit-content;
     }
 }
 
@@ -147,7 +147,11 @@ form {
     margin: 50px 0;
 }
 
-
+// Features section
+.features {
+    height: 720px;
+    background-image: url("../img/section-features--background.jpg");
+}
 
 // Media queries
 // Mobile devices 600px and down
