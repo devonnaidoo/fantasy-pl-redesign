@@ -161,6 +161,7 @@ form {
     background-size: contain;
     .section-heading {
         margin: 0;
+        padding: 50px;
     }
 }
 
@@ -233,12 +234,15 @@ form {
         }
 
     }
+    // Tabs
+    //Removing horizontal scroll bar of tabs
+    .tabs a {
+        font-size: 12px !important;
+    }
 
     // Features
     // Card
-    .tab-body {
-        // height: 200% !important;
-    }
+
 }
 
 // Table devices 992px and down
