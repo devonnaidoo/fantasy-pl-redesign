@@ -213,7 +213,7 @@ form {
 }
 // Card for stats
 .card-stats {
-    margin: 0 auto;
+    margin: 10px auto;
     width: 100%;
 }
 .card-stats-text {
@@ -307,8 +307,14 @@ form {
     }
     // Statistics section
     .stats {
-        // height: fit-content;
+        height: fit-content;
         background-image: none;
         background-color: $green;
+    }
+
+    // Card for stats
+    .card-stats {
+        margin: 30px auto;
+        width: 100%;
     }
 }

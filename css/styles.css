@@ -154,7 +154,7 @@ form .row:nth-child(7) {
   background-size: cover; }
 
 .card-stats {
-  margin: 0 auto;
+  margin: 10px auto;
   width: 100%; }
 
 .card-stats-text {
@@ -216,7 +216,12 @@ form .row:nth-child(7) {
     padding-bottom: 50px; }
 
   .stats {
+    height: fit-content;
     background-image: none;
-    background-color: #00ff87; } }
+    background-color: #00ff87; }
+
+  .card-stats {
+    margin: 30px auto;
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */
