@@ -99,7 +99,11 @@ form .row:nth-child(7) {
     background-color: #37003c !important; }
 
 #test-swipe-2, #test-swipe-3, #test-swipe-4, #test-swipe-5, #test-swipe-6, #test-swipe-7 {
-  height: 720px; }
+  height: 720px;
+  color: #ffffff; }
+  #test-swipe-2 h2, #test-swipe-3 h2, #test-swipe-4 h2, #test-swipe-5 h2, #test-swipe-6 h2, #test-swipe-7 h2 {
+    margin: 0;
+    padding: 10% 0; }
 
 .section-control {
   color: #ffffff; }
