@@ -220,6 +220,9 @@ form {
         background-color: #ffffff;
         font-weight: 700;
     }
+    button:hover {
+        background-color: desaturate( #f3f3f3, 20% ) ;
+    }
 }
 // Card for stats
 .card-stats {

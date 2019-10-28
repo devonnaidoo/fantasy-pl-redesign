@@ -160,6 +160,8 @@ form .row:nth-child(7) {
     color: #00ff87;
     background-color: #ffffff;
     font-weight: 700; }
+  .stats button:hover {
+    background-color: #f3f3f3; }
 
 .card-stats {
   margin: 10px auto;
