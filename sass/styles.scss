@@ -157,21 +157,19 @@ form {
 }
 // Initialising sections
 .section-control {
+    height: 720px;
     color: #ffffff;
 }
-
+.section-heading {
+    margin: 0;
+    padding: 50px;
+}
 
 // Features section
 .features {
-    height: 720px;
     background-image: url("../img/section-features--background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 0;
-    .section-heading {
-        margin: 0;
-        padding: 50px;
-    }
 }
 
 // Card

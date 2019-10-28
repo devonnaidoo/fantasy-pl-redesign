@@ -106,17 +106,17 @@ form .row:nth-child(7) {
     padding: 10% 0; }
 
 .section-control {
+  height: 720px;
   color: #ffffff; }
 
+.section-heading {
+  margin: 0;
+  padding: 50px; }
+
 .features {
-  height: 720px;
   background-image: url("../img/section-features--background.jpg");
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 0 0; }
-  .features .section-heading {
-    margin: 0;
-    padding: 50px; }
+  background-size: cover; }
 
 .card-custom {
   margin: 10px auto;
