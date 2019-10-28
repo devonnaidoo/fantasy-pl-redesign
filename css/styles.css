@@ -226,7 +226,8 @@ form .row:nth-child(7) {
   .stats {
     height: fit-content;
     background-image: none;
-    background-color: #00ff87; }
+    background-color: #00ff87;
+    padding-bottom: 50px; }
 
   .card-stats {
     margin: 30px auto;
