@@ -177,7 +177,7 @@ form {
     margin: 10px auto;
     width: 90%;
 }
-.card-custom-text{
+.card-custom-text {
     padding: 40px 40px 40px 40px;
     background-color: $pink;
     p {
@@ -257,7 +257,6 @@ form {
     // Features
     .features {
         background-image: none;
-        padding-bottom: 50px;
     }
 
 }
@@ -277,9 +276,16 @@ form {
             text-align: center;
         }
     }
-    // Features
+    // Features section
     .features {
         height: fit-content;
         background-image: none;
+        padding-bottom: 50px;
+    }
+    // Statistics section
+    .stats {
+        // height: fit-content;
+        background-image: none;
+        background-color: $green;
     }
 }
