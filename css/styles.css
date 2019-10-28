@@ -148,6 +148,11 @@ form .row:nth-child(7) {
   background-size: 90%;
   background-position: center; }
 
+.stats {
+  background-image: url("../img/statistics-features--background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 @media screen and (max-width: 600px) {
   .landing {
     background-image: none; }

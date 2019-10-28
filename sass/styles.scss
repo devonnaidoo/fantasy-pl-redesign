@@ -205,6 +205,13 @@ form {
     background-position: center;
 }
 
+// Statistics section
+.stats {
+    background-image: url("../img/statistics-features--background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 // Media queries
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {
