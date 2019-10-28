@@ -105,6 +105,8 @@ nav {
         text-align: center;
         .btn:last-child {
             background-color: $green;
+            font-weight: 700;
+            padding: 0 50px;
         }
     }
 }
@@ -210,6 +212,14 @@ form {
     background-image: url("../img/statistics-features--background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    // Button
+    button {
+        margin: 20px;
+        padding: 0 50px;
+        color: $green;
+        background-color: #ffffff;
+        font-weight: 700;
+    }
 }
 // Card for stats
 .card-stats {
