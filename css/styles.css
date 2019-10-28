@@ -98,6 +98,9 @@ form .row:nth-child(7) {
   .tabs-control .indicator {
     background-color: #37003c !important; }
 
+#test-swipe-2, #test-swipe-3, #test-swipe-4, #test-swipe-5, #test-swipe-6, #test-swipe-7 {
+  height: 720px; }
+
 .section-control {
   color: #ffffff; }
 

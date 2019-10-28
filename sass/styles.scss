@@ -146,7 +146,10 @@ form {
         background-color: $purple !important;
     } 
 }
-
+// Adding height to unused tabs for demonstrating purposes
+#test-swipe-2, #test-swipe-3, #test-swipe-4, #test-swipe-5, #test-swipe-6, #test-swipe-7{
+    height: 720px;
+}
 // Initialising sections
 .section-control {
     color: #ffffff;
