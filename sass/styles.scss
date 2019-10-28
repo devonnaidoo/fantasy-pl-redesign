@@ -145,7 +145,6 @@ form {
     .indicator {
         background-color: $purple !important;
     } 
-
 }
 
 // Initialising sections
@@ -156,9 +155,11 @@ form {
 
 // Features section
 .features {
+    height: 720px;
     background-image: url("../img/section-features--background.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
+    background-position: 0 0;
     .section-heading {
         margin: 0;
         padding: 50px;
@@ -241,7 +242,10 @@ form {
     }
 
     // Features
-    // Card
+    .features {
+        background-image: none;
+        padding-bottom: 50px;
+    }
 
 }
 
@@ -259,5 +263,10 @@ form {
         h1 {
             text-align: center;
         }
+    }
+    // Features
+    .features {
+        height: fit-content;
+        background-image: none;
     }
 }
