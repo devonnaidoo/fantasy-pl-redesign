@@ -211,10 +211,28 @@ form {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+// Card for stats
 .rule {
     width: 320px;
     height: 325px;
+}
+.card-stats-text {
+    background-color: $pink;
+    margin: 0;
+    width: fit-content;
+    margin: -8px auto;
+    padding: 10px 50px;
+}
+
+.icon-stats-info {
+    position: absolute;
+    color: $pink;
+    background-color: #ffffff;
+    width: 35px;
+    height: 35px;
+    padding: 1px 0;
+    font-weight: 700;
+    font-size: 20px;
 }
 
 // Media queries
