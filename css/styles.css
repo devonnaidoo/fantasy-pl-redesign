@@ -101,8 +101,7 @@ form .row:nth-child(7) {
     height: fit-content !important; }
 
 .section-control {
-  color: #ffffff;
-  margin: 50px 0; }
+  color: #ffffff; }
 
 .features {
   height: 800px;
@@ -111,15 +110,15 @@ form .row:nth-child(7) {
   background-size: contain; }
 
 .card-custom {
-  margin: 0 auto;
-  width: 100%; }
+  margin: 10px auto;
+  width: 90%; }
 
 .card-custom-text {
   padding: 40px 40px 40px 40px;
   background-color: #ff2882; }
   .card-custom-text p {
     border-left: 1px solid #ffffff;
-    border-width: 5px;
+    border-width: 4px;
     padding-left: 10px; }
 
 .img-container-1 {
@@ -159,7 +158,10 @@ form .row:nth-child(7) {
       right: 0;
       margin: 0 0; }
     .landing form .row:nth-child(7) {
-      right: 0; } }
+      right: 0; }
+
+  .tab-body {
+    height: 200% !important; } }
 @media screen and (max-width: 992px) {
   .tabs-control {
     position: relative;
