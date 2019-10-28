@@ -105,6 +105,8 @@ form .row:nth-child(7) {
   background-image: url("../img/section-features--background.jpg");
   background-repeat: no-repeat;
   background-size: contain; }
+  .features .section-heading {
+    margin: 0; }
 
 .card-custom {
   margin: 10px auto;

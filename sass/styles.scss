@@ -145,24 +145,23 @@ form {
     .indicator {
         background-color: $purple !important;
     } 
-    .tab-body {
-        // height: fit-content !important;
-    }
+
 }
 
 // Initialising sections
 .section-control {
     color: #ffffff;
-    // margin: 50px 0;
 }
 
 
 // Features section
 .features {
-    // height: 800px;
     background-image: url("../img/section-features--background.jpg");
     background-repeat: no-repeat;
     background-size: contain;
+    .section-heading {
+        margin: 0;
+    }
 }
 
 // Card
