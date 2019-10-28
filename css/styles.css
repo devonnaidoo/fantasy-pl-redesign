@@ -153,9 +153,9 @@ form .row:nth-child(7) {
   background-repeat: no-repeat;
   background-size: cover; }
 
-.rule {
-  width: 320px;
-  height: 325px; }
+.card-stats {
+  margin: 0 auto;
+  width: 100%; }
 
 .card-stats-text {
   background-color: #ff2882;
