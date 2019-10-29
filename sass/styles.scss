@@ -430,5 +430,25 @@ button:hover {
             }
         }
     }
+
+    // Premier League CTA
+    .prem-cta {
+        background-image: none;
+        background-color: $green;
+        .valign {
+            margin: 0 auto !important;
+            h2 {
+                margin: 0;
+                padding: 5px;
+            }
+            p {
+                font-size: 20px;
+                padding: 5px;
+            }
+            button {
+                margin: 20px 0;
+            }
+        }
+    }
     
 }

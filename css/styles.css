@@ -307,6 +307,20 @@ button:hover {
       .scouts .col:last-child h3 {
         text-align: center; }
       .scouts .col:last-child p {
-        text-align: left; } }
+        text-align: left; }
+
+  .prem-cta {
+    background-image: none;
+    background-color: #00ff87; }
+    .prem-cta .valign {
+      margin: 0 auto !important; }
+      .prem-cta .valign h2 {
+        margin: 0;
+        padding: 5px; }
+      .prem-cta .valign p {
+        font-size: 20px;
+        padding: 5px; }
+      .prem-cta .valign button {
+        margin: 20px 0; } }
 
 /*# sourceMappingURL=styles.css.map */
