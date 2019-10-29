@@ -312,6 +312,16 @@ button:hover {
     height: 200px;
 }
 
+// Club Sites section
+.club-sites {
+    background-image: url("../img/club-sites-section-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2 {
+        color: $green;
+    }
+}
+
 // Media queries
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {

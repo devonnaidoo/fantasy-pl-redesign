@@ -234,6 +234,13 @@ button:hover {
 .section-control-small {
   height: 200px; }
 
+.club-sites {
+  background-image: url("../img/club-sites-section-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .club-sites h2 {
+    color: #00ff87; }
+
 @media screen and (max-width: 600px) {
   .landing {
     background-image: none; }
