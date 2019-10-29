@@ -248,6 +248,13 @@ form {
     font-size: 20px;
 }
 
+// Scouts section
+.scouts {
+    background-image: url("../img/scouts-section-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 // Media queries
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {

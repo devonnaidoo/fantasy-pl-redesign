@@ -184,6 +184,11 @@ form .row:nth-child(7) {
   font-weight: 700;
   font-size: 20px; }
 
+.scouts {
+  background-image: url("../img/scouts-section-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 @media screen and (max-width: 600px) {
   .landing {
     background-image: none; }
