@@ -240,6 +240,8 @@ button:hover {
   background-size: cover; }
   .club-sites h2 {
     color: #00ff87; }
+  .club-sites img {
+    padding: 0 50px; }
 
 @media screen and (max-width: 600px) {
   .landing {
@@ -316,7 +318,7 @@ button:hover {
       text-align: left;
       height: fit-content; }
       .scouts .col:last-child h3 {
-        text-align: center; }
+        padding-left: 20px; }
       .scouts .col:last-child p {
         text-align: left; }
 
@@ -332,6 +334,12 @@ button:hover {
         font-size: 20px;
         padding: 5px; }
       .prem-cta .valign button {
-        margin: 20px 0; } }
+        margin: 20px 0; }
+
+  .club-sites {
+    background-image: none;
+    background-color: #ffffff; }
+    .club-sites img {
+      padding-bottom: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */

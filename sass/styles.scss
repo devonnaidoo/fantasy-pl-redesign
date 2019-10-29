@@ -320,6 +320,9 @@ button:hover {
     h2 {
         color: $green;
     }
+    img {
+        padding: 0 50px;
+    }
 }
 
 // Media queries
@@ -437,7 +440,7 @@ button:hover {
             text-align: left;
             height: fit-content;
             h3 {
-                text-align: center;
+                padding-left: 20px;
             }
             p {
                 text-align: left;
@@ -464,5 +467,13 @@ button:hover {
             }
         }
     }
-    
+
+    // Club Sites
+    .club-sites {
+        background-image: none;
+        background-color: #ffffff;
+        img {
+            padding-bottom: 50px;
+        }
+    }
 }
