@@ -238,7 +238,10 @@ form .row:nth-child(7) {
     font-size: 12px !important; }
 
   .features {
-    background-image: none; } }
+    background-image: none; }
+
+  .card-stats img {
+    width: 100%; } }
 @media screen and (max-width: 992px) {
   .tabs-control {
     position: relative;
