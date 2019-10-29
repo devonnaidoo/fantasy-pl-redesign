@@ -290,6 +290,9 @@ button:hover {
     background-image: url("../img/cta-section-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    .valign {
+        margin: 0 auto !important;
+    }
 }
 
 // Media queries

@@ -219,6 +219,8 @@ button:hover {
   background-image: url("../img/cta-section-background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+  .prem-cta .valign {
+    margin: 0 auto !important; }
 
 @media screen and (max-width: 600px) {
   .landing {
