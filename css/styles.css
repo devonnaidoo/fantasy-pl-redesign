@@ -262,6 +262,22 @@ form .row:nth-child(7) {
 
   .card-stats {
     margin: 30px auto;
-    width: 100%; } }
+    width: 100%; }
+
+  .scouts {
+    background-color: #00ff87; }
+    .scouts .row {
+      margin: 10px auto;
+      text-align: center; }
+    .scouts .col:first-child {
+      clip-path: none;
+      height: 400px; }
+    .scouts .col:last-child {
+      text-align: left;
+      height: fit-content; }
+      .scouts .col:last-child h3 {
+        text-align: center; }
+      .scouts .col:last-child p {
+        text-align: left; } }
 
 /*# sourceMappingURL=styles.css.map */
