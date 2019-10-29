@@ -188,9 +188,14 @@ form .row:nth-child(7) {
   background-image: url("../img/scouts-section-background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+  .scouts .row {
+    margin: 10px auto; }
   .scouts .col:first-child {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
-    background-color: #00ff87;
+    background-image: url("../img/sadio-mane-with-football.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     height: 400px; }
   .scouts .col:last-child {
     background-color: #37003c;

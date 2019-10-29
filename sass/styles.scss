@@ -253,9 +253,15 @@ form {
     background-image: url("../img/scouts-section-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    .row {
+        margin: 10px auto;
+    }
     .col:first-child {
         clip-path: polygon(0 0, 100% 0, 100% 100%, 0 93%);
-        background-color: $green;
+        background-image: url("../img/sadio-mane-with-football.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
         height: 400px;
     }
     .col:last-child {
