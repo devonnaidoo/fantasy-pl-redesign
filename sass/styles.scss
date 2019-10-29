@@ -372,7 +372,9 @@ form {
 
     // Scouts section
     .scouts {
-       
+        height: fit-content;
+        padding-bottom: 50px;
+        background-image: none;
         background-color: $green;
         .row {
             margin: 10px auto;
@@ -391,7 +393,6 @@ form {
             p {
                 text-align: left;
             }
-  
         }
     }
     
