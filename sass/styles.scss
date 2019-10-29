@@ -272,6 +272,16 @@ form {
         p {
             padding: 20px;
         }
+        button {
+            margin: 0px 20px;
+            padding: 0 50px;
+            color: $green;
+            background-color: #ffffff;
+            font-weight: 700;
+        }
+        button:hover {
+            background-color: desaturate( #f3f3f3, 20% ) ;
+        }
     }
 }
 
