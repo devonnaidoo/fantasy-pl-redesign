@@ -113,7 +113,8 @@ form .row:nth-child(7) {
 
 .section-heading {
   margin: 0;
-  padding: 50px; }
+  padding: 50px;
+  color: #ffffff; }
 
 .features {
   background-image: url("../img/section-features--background.jpg");
@@ -229,6 +230,9 @@ button:hover {
       padding: 5px; }
     .prem-cta .valign button {
       margin: 20px 0; }
+
+.section-control-small {
+  height: 200px; }
 
 @media screen and (max-width: 600px) {
   .landing {
