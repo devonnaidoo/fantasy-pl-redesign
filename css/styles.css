@@ -188,6 +188,12 @@ form .row:nth-child(7) {
   background-image: url("../img/scouts-section-background.jpg");
   background-repeat: no-repeat;
   background-size: cover; }
+  .scouts .col:first-child {
+    background-color: #00ff87;
+    height: 400px; }
+  .scouts .col:last-child {
+    background-color: #37003c;
+    height: 400px; }
 
 @media screen and (max-width: 600px) {
   .landing {

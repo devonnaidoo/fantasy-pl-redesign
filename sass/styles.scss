@@ -253,7 +253,16 @@ form {
     background-image: url("../img/scouts-section-background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    .col:first-child {
+        background-color: $green;
+        height: 400px;
+    }
+    .col:last-child {
+        background-color: $purple;
+        height: 400px;
+    }
 }
+
 
 // Media queries
 // Mobile devices 600px and down
