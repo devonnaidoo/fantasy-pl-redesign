@@ -207,7 +207,7 @@ form .row:nth-child(7) {
 
 button {
   margin: 0px 20px;
-  padding: 0 50px;
+  padding: 0 50px !important;
   color: #00ff87 !important;
   background-color: #ffffff !important;
   font-weight: 700; }
@@ -221,6 +221,14 @@ button:hover {
   background-size: cover; }
   .prem-cta .valign {
     margin: 0 auto !important; }
+    .prem-cta .valign h2 {
+      margin: 0;
+      padding: 5px; }
+    .prem-cta .valign p {
+      font-size: 20px;
+      padding: 5px; }
+    .prem-cta .valign button {
+      margin: 20px 0; }
 
 @media screen and (max-width: 600px) {
   .landing {

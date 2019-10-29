@@ -277,7 +277,7 @@ form {
 
 button {
     margin: 0px 20px;
-    padding: 0 50px;
+    padding: 0 50px !important;
     color: $green !important;
     background-color: #ffffff !important;
     font-weight: 700;
@@ -292,6 +292,17 @@ button:hover {
     background-size: cover;
     .valign {
         margin: 0 auto !important;
+        h2 {
+            margin: 0;
+            padding: 5px;
+        }
+        p {
+            font-size: 20px;
+            padding: 5px;
+        }
+        button {
+            margin: 20px 0;
+        }
     }
 }
 
