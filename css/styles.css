@@ -241,7 +241,13 @@ form .row:nth-child(7) {
     background-image: none; }
 
   .card-stats img {
-    width: 100%; } }
+    width: 80%; }
+
+  .card-stats {
+    margin: 50px 0; }
+
+  .stats .col:nth-child(1) .card-stats-text {
+    margin: -6px auto; } }
 @media screen and (max-width: 992px) {
   .tabs-control {
     position: relative;

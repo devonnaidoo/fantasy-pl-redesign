@@ -334,7 +334,18 @@ form {
     }
     // Stats 
     .card-stats img {
-        width: 100%;
+        width: 80%;
+    }
+    .card-stats {
+        margin: 50px 0;
+    }
+    // added small gap
+    .stats {
+        .col:nth-child(1) {
+            .card-stats-text {
+                margin: -6px auto;
+            }
+        }
     }
 
 }
