@@ -198,8 +198,12 @@ form .row:nth-child(7) {
     background-position: center;
     height: 400px; }
   .scouts .col:last-child {
+    padding: 30px;
+    text-align: left;
     background-color: #37003c;
     height: 400px; }
+    .scouts .col:last-child p {
+      padding: 20px; }
 
 @media screen and (max-width: 600px) {
   .landing {

@@ -265,8 +265,13 @@ form {
         height: 400px;
     }
     .col:last-child {
+        padding: 30px;
+        text-align: left;
         background-color: $purple;
         height: 400px;
+        p {
+            padding: 20px;
+        }
     }
 }
 
