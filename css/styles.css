@@ -204,14 +204,21 @@ form .row:nth-child(7) {
     height: 400px; }
     .scouts .col:last-child p {
       padding: 20px; }
-    .scouts .col:last-child button {
-      margin: 0px 20px;
-      padding: 0 50px;
-      color: #00ff87;
-      background-color: #ffffff;
-      font-weight: 700; }
-    .scouts .col:last-child button:hover {
-      background-color: #f3f3f3; }
+
+button {
+  margin: 0px 20px;
+  padding: 0 50px;
+  color: #00ff87 !important;
+  background-color: #ffffff !important;
+  font-weight: 700; }
+
+button:hover {
+  background-color: #f3f3f3; }
+
+.prem-cta {
+  background-image: url("../img/cta-section-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
 
 @media screen and (max-width: 600px) {
   .landing {
