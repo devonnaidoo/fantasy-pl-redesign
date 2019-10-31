@@ -359,6 +359,13 @@ button:hover {
     background-image: none;
     background-color: #ffffff; }
     .club-sites img {
+      padding-bottom: 50px; }
+
+  .sponsors {
+    height: 400px;
+    background-image: none;
+    background-color: #ffffff; }
+    .sponsors img {
       padding-bottom: 50px; } }
 
 /*# sourceMappingURL=styles.css.map */
