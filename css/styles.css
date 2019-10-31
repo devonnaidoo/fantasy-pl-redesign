@@ -265,6 +265,7 @@ footer {
     padding: 50px; }
   footer .dropdown-btn {
     height: fit-content;
+    width: 175px;
     background-color: #ff2882 !important;
     font-weight: 700; }
     footer .dropdown-btn i {
