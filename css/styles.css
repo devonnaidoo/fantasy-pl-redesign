@@ -234,6 +234,9 @@ button:hover {
 .section-control-small {
   height: 200px; }
 
+.section-control-small-medium {
+  height: 275px; }
+
 .club-sites {
   background-image: url("../img/club-sites-section-background.jpg");
   background-repeat: no-repeat;
@@ -253,7 +256,7 @@ button:hover {
   .sponsors h2 {
     color: #00ff87; }
   .sponsors img {
-    padding: 0 50px; }
+    padding: 0 0 0 50px; }
   .sponsors .carousel {
     position: relative;
     bottom: 100px; }
@@ -352,6 +355,7 @@ button:hover {
         margin: 20px 0; }
 
   .club-sites {
+    height: 400px;
     background-image: none;
     background-color: #ffffff; }
     .club-sites img {

@@ -312,6 +312,10 @@ button:hover {
     height: 200px;
 }
 
+.section-control-small-medium {
+    height: 275px;
+}
+
 // Club Sites section
 .club-sites {
     background-image: url("../img/club-sites-section-background.jpg");
@@ -338,7 +342,7 @@ button:hover {
         color: $green;
     }
     img {
-        padding: 0 50px;
+        padding: 0 0 0 50px;
     }
     .carousel {
         position: relative;
@@ -493,6 +497,7 @@ button:hover {
 
     // Club Sites
     .club-sites {
+        height: 400px;
         background-image: none;
         background-color: #ffffff;
         img {
