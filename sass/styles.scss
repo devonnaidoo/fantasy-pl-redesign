@@ -350,6 +350,19 @@ button:hover {
 // Footer Section
 footer {
     height: 600px;
+    .row {
+        padding: 50px;
+    }
+    .dropdown-btn {
+        height: fit-content;
+        background-color: $pink !important;
+        font-weight: 700;
+        i {
+           position: relative;
+           top: 5px;
+           left: 5px;
+        }
+    }
 }
 // Media queries
 // Mobile devices 600px and down
@@ -503,7 +516,7 @@ footer {
 
     // Sponsors
     .sponsors {
-        height: 350px;
+        height: 375px;
         background-image: none;
         background-color: #ffffff;
         img {

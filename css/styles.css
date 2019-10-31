@@ -261,6 +261,16 @@ button:hover {
 
 footer {
   height: 600px; }
+  footer .row {
+    padding: 50px; }
+  footer .dropdown-btn {
+    height: fit-content;
+    background-color: #ff2882 !important;
+    font-weight: 700; }
+    footer .dropdown-btn i {
+      position: relative;
+      top: 5px;
+      left: 5px; }
 
 @media screen and (max-width: 600px) {
   .landing {
@@ -361,7 +371,7 @@ footer {
     background-color: #ffffff; }
 
   .sponsors {
-    height: 350px;
+    height: 375px;
     background-image: none;
     background-color: #ffffff; }
     .sponsors img {
