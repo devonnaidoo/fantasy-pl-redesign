@@ -259,6 +259,9 @@ button:hover {
     position: relative;
     bottom: 100px; }
 
+footer {
+  height: 600px; }
+
 @media screen and (max-width: 600px) {
   .landing {
     background-image: none; }
