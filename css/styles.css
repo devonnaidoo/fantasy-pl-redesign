@@ -277,6 +277,10 @@ footer {
   footer .dropdown-btn.small-custom {
     width: 125px; }
 
+.footer-copyright {
+  background-color: #ffffff;
+  padding: 20px  0 0 0; }
+
 @media screen and (max-width: 600px) {
   .landing {
     background-image: none; }
