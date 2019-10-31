@@ -272,6 +272,8 @@ footer {
       position: relative;
       top: 5px;
       left: 5px; }
+  footer .dropdown-content a {
+    color: #ff2882; }
   footer .dropdown-btn.small-custom {
     width: 125px; }
 
