@@ -242,6 +242,9 @@ button:hover {
     color: #00ff87; }
   .club-sites img {
     padding: 0 50px; }
+  .club-sites .carousel {
+    position: relative;
+    bottom: 100px; }
 
 @media screen and (max-width: 600px) {
   .landing {
