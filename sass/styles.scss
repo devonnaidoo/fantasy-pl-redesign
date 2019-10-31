@@ -329,6 +329,23 @@ button:hover {
     }
 }
 
+// Club Sites section
+.sponsors {
+    background-image: url("../img/sponsors-section-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    h2 {
+        color: $green;
+    }
+    img {
+        padding: 0 50px;
+    }
+    .carousel {
+        position: relative;
+        bottom: 100px;
+    }
+}
+
 
 
 // Media queries

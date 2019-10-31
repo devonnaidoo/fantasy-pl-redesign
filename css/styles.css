@@ -246,6 +246,18 @@ button:hover {
     position: relative;
     bottom: 100px; }
 
+.sponsors {
+  background-image: url("../img/sponsors-section-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .sponsors h2 {
+    color: #00ff87; }
+  .sponsors img {
+    padding: 0 50px; }
+  .sponsors .carousel {
+    position: relative;
+    bottom: 100px; }
+
 @media screen and (max-width: 600px) {
   .landing {
     background-image: none; }
