@@ -380,6 +380,25 @@ footer {
     background-image: none;
     background-color: #ffffff; }
     .sponsors img {
-      padding-bottom: 50px; } }
+      padding-bottom: 50px; }
+
+  footer {
+    height: 500px; }
+    footer .row {
+      padding: 30px; }
+    footer .dropdown-btn {
+      height: 45px;
+      width: 100%;
+      background-color: #ff2882 !important;
+      font-weight: 700;
+      margin: 10px; }
+      footer .dropdown-btn i {
+        position: relative;
+        top: 5px;
+        left: 5px; }
+    footer .dropdown-content a {
+      color: #ff2882; }
+    footer .dropdown-btn.small-custom {
+      width: 125px; } }
 
 /*# sourceMappingURL=styles.css.map */
