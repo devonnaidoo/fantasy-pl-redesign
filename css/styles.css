@@ -283,6 +283,14 @@ footer {
   .footer-copyright img {
     width: 60%; }
 
+.modal-content h4 {
+  text-align: center;
+  margin: 20px 0; }
+.modal-content form button {
+  margin: 0 auto !important; }
+.modal-content form .row {
+  margin: 20px 0; }
+
 @media screen and (max-width: 600px) {
   .landing {
     background-image: none; }

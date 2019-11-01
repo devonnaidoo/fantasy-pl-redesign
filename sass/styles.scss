@@ -384,6 +384,23 @@ footer {
     }
 }
 
+// Modal Sign In
+.modal-content {
+    h4 {
+        text-align: center;
+        margin: 20px 0;
+    }
+    form {
+        button {
+            margin: 0 auto !important;
+        }
+        .row {
+            margin: 20px 0;
+        }
+    }
+    
+}
+
 // Media queries
 // Mobile devices 600px and down
 @media screen and (max-width: 600px) {
