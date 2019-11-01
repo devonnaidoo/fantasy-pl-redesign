@@ -260,7 +260,7 @@ button:hover {
     bottom: 100px; }
 
 footer {
-  height: 600px; }
+  height: fit-content; }
   footer .row {
     padding: 50px; }
   footer .dropdown-btn {
