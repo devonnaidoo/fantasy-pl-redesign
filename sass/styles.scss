@@ -416,6 +416,8 @@ footer {
         font-family: 'Roboto', sans-serif;
         font-weight: 700;
         a {
+            width: 100%;
+            text-align: center;
             box-shadow: 0px 3px 3px 1px rgba(0,0,0,0.2);
             border-radius: 3px;
         }
@@ -645,6 +647,23 @@ footer {
         }
         .dropdown-btn.small-custom {
             width: 125px;
+        }
+    }
+
+    .modal-content {
+        // Google sign buttons
+        .google-button {
+            font-size: 12px;
+            a {
+                width: 100%;
+            }
+        }
+        // Facebook sign buttons
+        .facebook-button {
+            font-size: 12px;
+            a {
+                width: 100%;
+            }
         }
     }
 }
