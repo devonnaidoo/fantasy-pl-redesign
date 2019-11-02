@@ -284,6 +284,7 @@ footer {
     width: 60%; }
 
 .modal-content h4 {
+  color: #37003c;
   text-align: center;
   margin: 20px 0; }
 .modal-content form button {
