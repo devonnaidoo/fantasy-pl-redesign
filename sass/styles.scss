@@ -166,8 +166,18 @@ form {
 }
 .section-heading {
     margin: 0;
-    padding: 50px;
+    padding: 50px 0 0 0;
     color: #ffffff;
+}
+.heading-underline {
+    hr {
+        width: 75px;
+        height: 3px;
+        background-color: $green;
+        border-color: $green;
+    }
+    
+    margin: 0 0 50px 0;
 }
 
 // Features section
@@ -290,7 +300,7 @@ button:hover {
 }
 // Premier League CTA section
 .prem-cta {
-    background-image: url("../img/cta-section-background.jpg");
+    background-image: url("../img/cta-section-background-2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     .valign {
