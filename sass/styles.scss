@@ -399,6 +399,17 @@ footer {
             margin: 20px 0;
         }
     }
+    p {
+        font-weight: 700;
+    }
+    a {
+        position: absolute !important;
+        top: 0;
+        right: 0;
+    }
+    a:hover {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
     
 }
 
