@@ -480,6 +480,11 @@ footer {
   .modal-content .facebook-button {
     font-size: 12px; }
     .modal-content .facebook-button a {
-      width: 100%; } }
+      width: 100%; }
+
+  .heading-underline hr {
+    height: 1px;
+    background-color: #ffffff;
+    border-color: #ffffff; } }
 
 /*# sourceMappingURL=styles.css.map */

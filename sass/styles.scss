@@ -176,7 +176,6 @@ form {
         background-color: $green;
         border-color: $green;
     }
-    
     margin: 0 0 50px 0;
 }
 
@@ -674,6 +673,14 @@ footer {
             a {
                 width: 100%;
             }
+        }
+    }
+
+    .heading-underline {
+        hr {
+            height: 1px;
+            background-color: #ffffff;
+            border-color: #ffffff;
         }
     }
 }
