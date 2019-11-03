@@ -115,11 +115,12 @@ nav {
         top: 50px;
         left: 54%;
         hr {
-            
+            background-color: $green;
+            color: $green;
+            border: none;
             width: 48px;
             height: 5px;
         }
-
     }
     .row .col:first-child {
         h1 {
@@ -195,7 +196,7 @@ form {
         width: 75px;
         height: 3px;
         background-color: $green;
-        border-color: $green;
+        border: none;
     }
     margin: 0 0 50px 0;
 }
@@ -701,7 +702,39 @@ footer {
         hr {
             height: 1px;
             background-color: #ffffff;
-            border-color: #ffffff;
+            border: none;
+        }
+    }
+    .link-line {
+        hr {
+            display: none;
+        }
+    }
+}
+
+// Desktop devices 1024px and down
+@media screen and (max-width: 1024px) {
+    .link-line {
+        position: absolute;
+        top: 50px;
+        left: 54%;
+        hr {
+            background-color: $green;
+            color: $green;
+            border: none;
+            width: 48px;
+            height: 5px;
+        }
+    }
+    .row .col:first-child {
+        h1 {
+            margin-left: 100px !important;
+            color: $pink;
+        }
+    }
+    .row .col:last-child {
+        h1 {
+            color: #ffffff;
         }
     }
 }

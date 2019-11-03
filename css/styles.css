@@ -82,6 +82,9 @@ nav {
     top: 50px;
     left: 54%; }
     .landing .link-line hr {
+      background-color: #00ff87;
+      color: #00ff87;
+      border: none;
       width: 48px;
       height: 5px; }
   .landing .row .col:first-child h1 {
@@ -134,7 +137,7 @@ form .row:nth-child(7) {
     width: 75px;
     height: 3px;
     background-color: #00ff87;
-    border-color: #00ff87; }
+    border: none; }
 
 .features {
   background-image: url("../img/section-features--background-2.jpg");
@@ -496,6 +499,27 @@ footer {
   .heading-underline hr {
     height: 1px;
     background-color: #ffffff;
-    border-color: #ffffff; } }
+    border: none; }
+
+  .link-line hr {
+    display: none; } }
+@media screen and (max-width: 1024px) {
+  .link-line {
+    position: absolute;
+    top: 50px;
+    left: 54%; }
+    .link-line hr {
+      background-color: #00ff87;
+      color: #00ff87;
+      border: none;
+      width: 48px;
+      height: 5px; }
+
+  .row .col:first-child h1 {
+    margin-left: 100px !important;
+    color: #ff2882; }
+
+  .row .col:last-child h1 {
+    color: #ffffff; } }
 
 /*# sourceMappingURL=styles.css.map */
