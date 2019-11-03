@@ -710,6 +710,20 @@ footer {
             display: none;
         }
     }
+    .row .col:last-child {
+        h1 {
+            display: none;
+        }
+        p {
+            margin-top: 0;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+    }
+    .landing-heading {
+        margin: 50px;
+        padding: 0;
+    }
 }
 
 // Desktop devices 1024px and down

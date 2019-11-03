@@ -502,7 +502,18 @@ footer {
     border: none; }
 
   .link-line hr {
-    display: none; } }
+    display: none; }
+
+  .row .col:last-child h1 {
+    display: none; }
+  .row .col:last-child p {
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-align: center; }
+
+  .landing-heading {
+    margin: 50px;
+    padding: 0; } }
 @media screen and (max-width: 1024px) {
   .link-line {
     position: absolute;
