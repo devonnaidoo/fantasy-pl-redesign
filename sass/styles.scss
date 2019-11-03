@@ -110,8 +110,20 @@ nav {
             padding: 0 50px;
         }
     }
+    .link-line {
+        position: absolute;
+        top: 50px;
+        left: 54%;
+        hr {
+            
+            width: 48px;
+            height: 5px;
+        }
+
+    }
     .row .col:first-child {
         h1 {
+            margin-left: 300px;
             color: $purple;
         }
     }

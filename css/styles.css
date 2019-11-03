@@ -77,7 +77,15 @@ nav {
       background-color: #00ff87;
       font-weight: 700;
       padding: 0 50px; }
+  .landing .link-line {
+    position: absolute;
+    top: 50px;
+    left: 54%; }
+    .landing .link-line hr {
+      width: 48px;
+      height: 5px; }
   .landing .row .col:first-child h1 {
+    margin-left: 300px;
     color: #37003c; }
   .landing .row .col:last-child h1 {
     color: #ffffff; }
