@@ -11,8 +11,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
 h1 {
-  font-size: 44px;
-  color: #37003c; }
+  font-size: 36px; }
 
 h2 {
   font-size: 28px !important; }
@@ -69,15 +68,19 @@ nav {
   .landing .container-custom .col:first-child {
     text-align: center; }
   .landing img {
-    height: 500px; }
+    max-height: 500px; }
   .landing .container-form {
     margin: 10px;
-    padding: 10px 50px;
+    padding: 50px;
     text-align: center; }
     .landing .container-form .btn:last-child {
       background-color: #00ff87;
       font-weight: 700;
       padding: 0 50px; }
+  .landing .row .col:first-child h1 {
+    color: #37003c; }
+  .landing .row .col:last-child h1 {
+    color: #ffffff; }
 
 form .row, form .col, form input {
   margin: -5px;

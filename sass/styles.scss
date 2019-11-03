@@ -18,8 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 // Font sizes for entire site
 h1 {
-    font-size: 44px;
-    color: $purple;
+    font-size: 36px;
 }
 
 h2 {
@@ -99,16 +98,26 @@ nav {
         text-align: center;
     }
     img {
-        height: 500px;
+        max-height: 500px;
     }
     .container-form {
         margin: 10px;
-        padding: 10px 50px;
+        padding: 50px;
         text-align: center;
         .btn:last-child {
             background-color: $green;
             font-weight: 700;
             padding: 0 50px;
+        }
+    }
+    .row .col:first-child {
+        h1 {
+            color: $purple;
+        }
+    }
+    .row .col:last-child {
+        h1 {
+            color: #ffffff;
         }
     }
 }
