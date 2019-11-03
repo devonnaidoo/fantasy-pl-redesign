@@ -68,7 +68,8 @@ nav {
   .landing .container-custom .col:first-child {
     text-align: center; }
   .landing img {
-    max-height: 500px; }
+    max-height: 500px;
+    margin-left: 200px; }
   .landing .container-form {
     margin: 10px;
     padding: 50px;
@@ -92,6 +93,9 @@ nav {
     color: #37003c; }
   .landing .row .col:last-child h1 {
     color: #ffffff; }
+  .landing .row .col:last-child p {
+    color: #ffffff;
+    padding: 20px; }
   .landing form .row, .landing form .col, .landing form input {
     margin: -5px;
     padding: 0; }
@@ -514,7 +518,9 @@ footer {
   .row .col:last-child p {
     margin-top: 0;
     margin-bottom: 20px;
-    text-align: center; }
+    text-align: center;
+    color: #000000 !important;
+    padding: 5px !important; }
 
   #modal2 {
     overflow: scroll; }
@@ -523,6 +529,9 @@ footer {
     margin: 50px;
     padding: 0; } }
 @media screen and (max-width: 1024px) {
+  .landing img {
+    margin-left: 100px; }
+
   .link-line {
     position: absolute;
     top: 50px;

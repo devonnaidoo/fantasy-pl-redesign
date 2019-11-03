@@ -99,6 +99,7 @@ nav {
     }
     img {
         max-height: 500px;
+        margin-left: 200px;
     }
     .container-form {
         margin: 10px;
@@ -131,6 +132,10 @@ nav {
     .row .col:last-child {
         h1 {
             color: #ffffff;
+        }
+        p {
+            color: #ffffff;
+            padding: 20px;
         }
     }
     // Form
@@ -728,6 +733,8 @@ footer {
             margin-top: 0;
             margin-bottom: 20px;
             text-align: center;
+            color: #000000 !important;
+            padding: 5px !important;
         }
     }
     #modal2 {
@@ -742,6 +749,11 @@ footer {
 
 // Desktop devices 1024px and down
 @media screen and (max-width: 1024px) {
+    .landing {
+        img {
+            margin-left: 100px;
+        }
+    }
     .link-line {
         position: absolute;
         top: 50px;
