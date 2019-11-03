@@ -398,7 +398,11 @@ footer {
     margin: 50px 0; }
 
   .stats .col:nth-child(1) .card-stats-text {
-    margin: -6px auto; } }
+    margin: -6px auto; }
+
+  .nav-wrapper a.modal-trigger {
+    position: relative;
+    left: 50px; } }
 @media screen and (max-width: 992px) {
   .tabs-control {
     position: relative;

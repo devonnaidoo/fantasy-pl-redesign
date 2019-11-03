@@ -556,6 +556,14 @@ footer {
             }
         }
     }
+
+    // Fixing sign button
+    .nav-wrapper {
+        a.modal-trigger {
+            position: relative;
+            left: 50px;
+        }
+    }
 }
 
 // Table devices 992px and down
