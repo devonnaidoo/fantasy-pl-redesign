@@ -92,17 +92,16 @@ nav {
     color: #37003c; }
   .landing .row .col:last-child h1 {
     color: #ffffff; }
-
-form .row, form .col, form input {
-  margin: -5px;
-  padding: 0; }
-form .row:nth-child(4), form .row:nth-child(5), form .row:nth-child(6) {
-  position: relative;
-  right: 18px;
-  margin: 10px 0; }
-form .row:nth-child(7) {
-  position: relative;
-  right: 8px; }
+  .landing form .row, .landing form .col, .landing form input {
+    margin: -5px;
+    padding: 0; }
+  .landing form .row:nth-child(4), .landing form .row:nth-child(5), .landing form .row:nth-child(6) {
+    position: relative;
+    right: 18px;
+    margin: 10px 0; }
+  .landing form .row:nth-child(7) {
+    position: relative;
+    right: 8px; }
 
 .tabs-control {
   text-align: center; }
@@ -375,14 +374,16 @@ footer {
       margin: 0;
       padding: 0;
       width: 100%; }
-    .landing form .row, .landing form .col, .landing form input {
-      margin: 0;
-      padding: 0; }
-    .landing form .row:nth-child(4), .landing form .row:nth-child(5), .landing form .row:nth-child(6) {
-      right: 0;
-      margin: 0 0; }
-    .landing form .row:nth-child(7) {
-      right: 0; }
+    .landing form {
+      width: 320px; }
+      .landing form .row, .landing form .col, .landing form input {
+        margin: 0;
+        padding: 0; }
+      .landing form .row:nth-child(4), .landing form .row:nth-child(5), .landing form .row:nth-child(6) {
+        right: 0;
+        margin: 0 0; }
+      .landing form .row:nth-child(7) {
+        right: 0; }
 
   .tabs a {
     font-size: 12px !important; }
@@ -510,6 +511,9 @@ footer {
     margin-top: 0;
     margin-bottom: 20px;
     text-align: center; }
+
+  #modal2 {
+    overflow: scroll; }
 
   .landing-heading {
     margin: 50px;

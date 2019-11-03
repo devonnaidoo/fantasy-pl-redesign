@@ -133,25 +133,26 @@ nav {
             color: #ffffff;
         }
     }
+    // Form
+    form {
+        .row, .col, input {
+            margin: -5px;
+            padding: 0;
+        }
+        .row:nth-child(4), .row:nth-child(5), .row:nth-child(6) {
+            // Align text to the absolute left of the form
+            position: relative;
+            right: 18px;
+            margin: 10px 0;
+        }
+        .row:nth-child(7) {
+            position: relative;
+            right: 8px;
+        }
+    }
 }
   
-// Form
-form {
-    .row, .col, input {
-        margin: -5px;
-        padding: 0;
-    }
-    .row:nth-child(4), .row:nth-child(5), .row:nth-child(6) {
-        // Align text to the absolute left of the form
-        position: relative;
-        right: 18px;
-        margin: 10px 0;
-    }
-    .row:nth-child(7) {
-        position: relative;
-        right: 8px;
-    }
-}
+
 
 // Tabs
 .tabs-control {
@@ -515,6 +516,7 @@ footer {
         }
         // Adjusting form inputs
         form {
+            width: 320px;
             .row, .col, input {
                 margin:  0;
                 padding: 0;
@@ -720,9 +722,13 @@ footer {
             text-align: center;
         }
     }
+    #modal2 {
+        overflow: scroll;
+    }
     .landing-heading {
         margin: 50px;
         padding: 0;
+
     }
 }
 
