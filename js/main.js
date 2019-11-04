@@ -5,8 +5,8 @@ if ($(window).width() >= 1024) {
     // create a scene
     var ourScene = new ScrollMagic.Scene({
         triggerElement: '#card1',
-        duration: 1000, // the scene should last for a scroll distance of 100px
-        triggerHook: 0.8
+        duration: '150%', // the scene should last for a scroll distance of 100px
+        triggerHook: 0.9
         // offset: 50 // start this scene after scrolling for 50px
     })
         .setClassToggle('#card1', 'fade-in')
@@ -20,8 +20,8 @@ if ($(window).width() >= 1024) {
     // create a scene
     var ourScene = new ScrollMagic.Scene({
         triggerElement: '#card2',
-        duration: 1000, // the scene should last for a scroll distance of 100px
-        triggerHook: 0.8
+        duration: '150%', // the scene should last for a scroll distance
+        triggerHook: 0.9
         // offset: 50 // start this scene after scrolling for 50px
     })
         .setClassToggle('#card2', 'fade-in')
