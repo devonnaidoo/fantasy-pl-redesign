@@ -75,5 +75,35 @@ if ($(window).width() >= 1024) {
             colorStart: 'grey'
         })
         .addTo(controller); // assign the scene to the controller
+
+    // Scouts Scene
+    // Card 1
+    var cardScouts1 = new ScrollMagic.Scene({
+        triggerElement: '#section-1',
+        duration: '200%', // the scene should last for a scroll distance of 100px
+        triggerHook: 0.9,
+        offset: 100
+    })
+        .setClassToggle('#section-1', 'slide-in')
+        .addIndicators({
+            name: 'card scene',
+            colorTrigger: 'white',
+            colorStart: 'grey'
+        })
+        .addTo(controller); // assign the scene to the controller
+    // Card 2
+    var cardScouts1 = new ScrollMagic.Scene({
+        triggerElement: '#section-2',
+        duration: '200%', // the scene should last for a scroll distance of 100px
+        triggerHook: 0.9,
+        offset: 100
+    })
+        .setClassToggle('#section-2', 'fade-in')
+        .addIndicators({
+            name: 'card scene',
+            colorTrigger: 'white',
+            colorStart: 'grey'
+        })
+        .addTo(controller); // assign the scene to the controller
 }
 
