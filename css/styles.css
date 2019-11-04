@@ -620,10 +620,11 @@ footer {
     transform: translateY(0); }
 
   #text-1 {
+    opacity: 0;
     transform: translateX(100px);
     transition: all 0.5s ease-out; }
 
-  #text-1.fade-in {
+  #text-1.slide-in {
     opacity: 1;
     transform: translateX(0); }
 
@@ -639,7 +640,7 @@ footer {
 
   #button-1 {
     opacity: 0;
-    transform: translateX(100px);
+    transform: translateY(100px);
     transition: all 0.5s ease-out; }
 
   #button-1.fade-in {
