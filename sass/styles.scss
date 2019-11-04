@@ -888,8 +888,8 @@ footer {
     // Text 1
     #button-1 {
         opacity: 0;
-        transform: translateY(100px);
-        transition: all 0.5s ease-out;
+        transform: translateY(50px);
+        transition: all 0.3s ease-out;
     }
     #button-1.slide-in {
         opacity: 1;
