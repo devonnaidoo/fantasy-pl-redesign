@@ -116,6 +116,18 @@ if ($(window).width() >= 1024) {
             colorStart: 'grey'
         })
         .addTo(controller); // assign the scene to the controller
+    // Text 1
+    var textScene2 = new ScrollMagic.Scene({
+        triggerElement: '#text-2',
+        triggerHook: 0.9
+    })
+        .setClassToggle('#text-2', 'slide-in')
+        .addIndicators({
+            name: 'card scene',
+            colorTrigger: 'white',
+            colorStart: 'grey'
+        })
+        .addTo(controller); // assign the scene to the controller
 
 }
 

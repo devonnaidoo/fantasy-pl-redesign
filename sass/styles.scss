@@ -878,13 +878,12 @@ footer {
     // Text 2
     #text-2 {
         opacity: 0;
-        position: relative;
-        left: 25%;
-        transition: all 0.5s ease-out;
+        transform: translateX(100px);
+        transition: all 0.5s ease-out 0.15s;
     }
-    #text-2.fade-in {
+    #text-2.slide-in {
         opacity: 1;
-        transform: translateY(0);
+        transform: translateX(0);
     }
     // Text 1
     #button-1 {
@@ -892,7 +891,7 @@ footer {
         transform: translateY(100px);
         transition: all 0.5s ease-out;
     }
-    #button-1.fade-in {
+    #button-1.slide-in {
         opacity: 1;
         transform: translateX(0);
     }
