@@ -563,7 +563,7 @@ footer {
 
   #card1.fade-in {
     opacity: 1;
-    transform: translateY(0); }
+    transform: translateX(0); }
 
   #card2 {
     opacity: 0;
@@ -571,6 +571,33 @@ footer {
     transition: all 0.5s ease-out; }
 
   #card2.fade-in {
+    opacity: 1;
+    transform: translateX(0); }
+
+  #card-stats-1 {
+    opacity: 0.8;
+    transform: translateY(30px);
+    transition: all 0.5s ease-out; }
+
+  #card-stats-1.slide-in {
+    opacity: 1;
+    transform: translateY(0); }
+
+  #card-stats-2 {
+    opacity: 0.8;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out; }
+
+  #card-stats-2.slide-in {
+    opacity: 1;
+    transform: translateY(0); }
+
+  #card-stats-3 {
+    opacity: 0.8;
+    transform: translateY(30px);
+    transition: all 0.5s ease-out; }
+
+  #card-stats-3.slide-in {
     opacity: 1;
     transform: translateY(0); } }
 
