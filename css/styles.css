@@ -52,6 +52,9 @@ nav {
   nav .left .dropdown-trigger {
     height: 70px; }
 
+.dropdown-content {
+  width: fit-content !important; }
+
 .landing {
   margin: 0;
   padding: 0;

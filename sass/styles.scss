@@ -78,6 +78,11 @@ nav {
     }
 }
 
+// Fixing dropdown width
+.dropdown-content {
+    width: fit-content !important;
+}
+
 // Landing
 .landing { 
     margin: 0;
