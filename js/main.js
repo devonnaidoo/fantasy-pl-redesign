@@ -10,11 +10,11 @@ if ($(window).width() >= 1024) {
         triggerHook: 0.9
     })
         .setClassToggle('#card1', 'fade-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
 
     // Card 2
@@ -24,11 +24,11 @@ if ($(window).width() >= 1024) {
         triggerHook: 0.9
     })
         .setClassToggle('#card2', 'fade-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
     // Card Scene End
 
@@ -40,11 +40,11 @@ if ($(window).width() >= 1024) {
         offset: 100
     })
         .setClassToggle('#card-stats-1', 'slide-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
     // Card 2
     var cardStats1 = new ScrollMagic.Scene({
@@ -53,11 +53,11 @@ if ($(window).width() >= 1024) {
         offset: 100
     })
         .setClassToggle('#card-stats-2', 'slide-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
     // Card 3
     var cardStats1 = new ScrollMagic.Scene({
@@ -66,11 +66,11 @@ if ($(window).width() >= 1024) {
         offset: 100
     })
         .setClassToggle('#card-stats-3', 'slide-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
 
     // Scouts Scene
@@ -82,11 +82,11 @@ if ($(window).width() >= 1024) {
         offset: 100
     })
         .setClassToggle('#section-1', 'slide-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
     // Card 2
     var cardScouts1 = new ScrollMagic.Scene({
@@ -96,11 +96,11 @@ if ($(window).width() >= 1024) {
         offset: 100
     })
         .setClassToggle('#section-2', 'fade-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
 
     // CTA Scene
@@ -110,11 +110,11 @@ if ($(window).width() >= 1024) {
         triggerHook: 0.9
     })
         .setClassToggle('#text-1', 'slide-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
     // Text 2
     var textScene2 = new ScrollMagic.Scene({
@@ -122,11 +122,11 @@ if ($(window).width() >= 1024) {
         triggerHook: 0.9
     })
         .setClassToggle('#text-2', 'slide-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
     // Button 1
     var textScene1 = new ScrollMagic.Scene({
@@ -134,11 +134,11 @@ if ($(window).width() >= 1024) {
         triggerHook: 0.9
     })
         .setClassToggle('#button-1', 'slide-in')
-        .addIndicators({
-            name: 'card scene',
-            colorTrigger: 'white',
-            colorStart: 'grey'
-        })
+        // .addIndicators({
+        //     name: 'card scene',
+        //     colorTrigger: 'white',
+        //     colorStart: 'grey'
+        // })
         .addTo(controller); // assign the scene to the controller
 }
 

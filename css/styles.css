@@ -556,6 +556,15 @@ footer {
   .row .col:last-child h1 {
     color: #ffffff; } }
 @media screen and (min-width: 992px) {
+  .landing {
+    animation-name: fade-in;
+    animation-duration: 1.5s; }
+
+  @keyframes fade-in {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
   #card1 {
     opacity: 0;
     transform: translateX(-50px);
