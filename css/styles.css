@@ -612,9 +612,38 @@ footer {
 
   #section-2 {
     opacity: 0;
+    transform: translateY(-20px);
     transition: all 0.5s ease-out; }
 
   #section-2.fade-in {
-    opacity: 1; } }
+    opacity: 1;
+    transform: translateY(0); }
+
+  #text-1 {
+    transform: translateX(100px);
+    transition: all 0.5s ease-out; }
+
+  #text-1.fade-in {
+    opacity: 1;
+    transform: translateX(0); }
+
+  #text-2 {
+    opacity: 0;
+    position: relative;
+    left: 25%;
+    transition: all 0.5s ease-out; }
+
+  #text-2.fade-in {
+    opacity: 1;
+    transform: translateY(0); }
+
+  #button-1 {
+    opacity: 0;
+    transform: translateX(100px);
+    transition: all 0.5s ease-out; }
+
+  #button-1.fade-in {
+    opacity: 1;
+    transform: translateX(0); } }
 
 /*# sourceMappingURL=styles.css.map */

@@ -36,7 +36,6 @@ if ($(window).width() >= 1024) {
     // Card 1
     var cardStats1 = new ScrollMagic.Scene({
         triggerElement: '#card-stats-1',
-        duration: '200%', // the scene should last for a scroll distance of 100px
         triggerHook: 0.9,
         offset: 100
     })
@@ -50,7 +49,6 @@ if ($(window).width() >= 1024) {
     // Card 2
     var cardStats1 = new ScrollMagic.Scene({
         triggerElement: '#card-stats-2',
-        duration: '145%', // the scene should last for a scroll distance of 100px
         triggerHook: 0.9,
         offset: 100
     })
@@ -64,7 +62,6 @@ if ($(window).width() >= 1024) {
     // Card 3
     var cardStats1 = new ScrollMagic.Scene({
         triggerElement: '#card-stats-3',
-        duration: '145%', // the scene should last for a scroll distance of 100px
         triggerHook: 0.9,
         offset: 100
     })
