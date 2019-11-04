@@ -53,6 +53,7 @@ nav {
     height: 70px; }
 
 .dropdown-content {
+  background-color: rgba(255, 255, 255, 0.9);
   width: fit-content !important; }
 
 .landing {
@@ -522,7 +523,6 @@ footer {
     margin-top: 0;
     margin-bottom: 20px;
     text-align: center;
-    color: #000000 !important;
     padding: 5px !important; }
 
   #modal2 {
@@ -530,7 +530,10 @@ footer {
 
   .landing-heading {
     margin: 50px;
-    padding: 0; } }
+    padding: 0; }
+
+  .landing-intro {
+    color: #000000 !important; } }
 @media screen and (max-width: 1024px) {
   .landing img {
     margin-left: 100px; }
